@@ -555,6 +555,7 @@
         font-size: 1.2rem;
         display: flex;
         align-items: center;
+        margin-left: 2rem;
     }
 
     &__icon-location {
@@ -593,6 +594,7 @@
         text-transform: uppercase;
 
         @media only screen and (max-width: $bp-small) {
+            text-align: center;
             font-size: .5rem;
         }
     }
