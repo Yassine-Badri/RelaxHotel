@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
+        
+        <title>Relax hotel</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="trillo logo" class="logo">
+
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search Rooms">
+                    <button class="search__button">
+                        <img src="img/SVG/magnifying-glass.svg" class="search__icon">
+                    </button>
+
+                    <div class="suggestions">
+                        <ul class="suggestions__list">
+                            <li class="suggestions__item">
+                                <img src="img/classique.jpg" alt="Room 1" class="suggestions__photo">
+                                <div class="suggestions__item-box">
+                                    <h1 class="suggestions__name">CLASSIC ROOM</h1>
+                                    <div class="suggestions__stars">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                    </div>
+                                </div>
+                                <div class="suggestions__rating">
+                                    7.9
+                                </div>
+                            </li>
+
+                            <li class="suggestions__item">
+                                <img src="img/superieure.jpg" alt="Room 2" class="suggestions__photo">
+                                <div class="suggestions__item-box">
+                                    <h1 class="suggestions__name">SUPERIOR ROOM</h1>
+                                    <div class="suggestions__stars">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star icon-star">
+                                    </div>
+                                </div>
+                                <div class="suggestions__rating">
+                                    8.4
+                                </div>
+                            </li>
+
+                            <li class="suggestions__item">
+                                <img src="img/deluxe.jpg" alt="Room 3" class="suggestions__photo">
+                                <div class="suggestions__item-box">
+                                    <h1 class="suggestions__name">DELUXE ROOM</h1>
+                                    <div class="suggestions__stars">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                        <img src="img/SVG/star.svg" class="suggestions__icon-star">
+                                    </div>
+                                </div>
+
+                                <div class="suggestions__rating">
+                                    8.2
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <img src="img/SVG/bookmark.svg" class="user-nav__icon">
+                        <span class="user-nav__notification">5</span>
+                    </div>
+                    <div class="user-nav__icon-box user-nav__messages">
+                        <img src="img/SVG/chat.svg" class="user-nav__icon">
+                        <span class="user-nav__notification">9</span>
+
+                        <div class="chat">
+                            <ul class="chat__list">
+                                <li class="chat__item">
+                                    <img src="img/user-1.jpg" alt="user 1" class="chat__photo">
+                                    <div class="chat__box">
+                                        <div class="chat__infos">
+                                            <h1 class="chat__username">Allen Woody</h1>
+                                            <p class="chat__time">16:30; 5.21.2019</p>
+                                        </div>
+                                        <p class="chat__preview">
+                                            je suis actuellement à new york, looking for a go...
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="chat__item">
+                                    <img src="img/user-2.jpg" alt="user 2" class="chat__photo">
+                                    <div class="chat__box">
+                                        <div class="chat__infos">
+                                            <h1 class="chat__username">Blalock Jolene</h1>
+                                            <p class="chat__time">11:30; 5.21.2019</p>
+                                        </div>
+                                        <p class="chat__preview">
+                                            Oh thank you for your recommendation, I Appre...
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="chat__item">
+                                    <img src="img/user-3.jpg" alt="user 3" class="chat__photo">
+                                    <div class="chat__box">
+                                        <div class="chat__infos">
+                                            <h1 class="chat__username">James Williams</h1>
+                                            <p class="chat__time">9:30; 4.21.2019</p>
+                                        </div>
+                                        <p class="chat__preview">
+                                            Hi Yassine How are you? I recieved your messag...
+                                        </p>
+                                    </div>
+                                </li>
+                                <div class="chat__button-box">
+                                    <button class="chat__button btn-inline">Show all <span>&rarr;</span></button>
+                                </div>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right-menu">
+                        <div class="right-menu__button user-nav__user">
+                            <img src="img/user.jpg" alt="User photo" class="user-nav__user-photo">
+                            <span class="user-nav__user-name">Yassine</span>
+                        </div>
+                        <div class="right-menu__dropdown">
+                            <ul>
+                                <li>
+                                    <img src="img/SVG/layers.svg" class="search__icon">
+                                    <a href="#">My bookings</a>
+                                </li>
+                                <li>
+                                    <img src="img/SVG/user.svg" class="search__icon">
+                                    <a href="#">My Profile</a>
+                                </li>
+                                <li>
+                                    <img src="img/SVG/cog.svg" class="search__icon">
+                                    <a href="#">Settings</a>
+                                </li>
+                                <li>
+                                    <img src="img/SVG/log-out.svg" class="search__icon">
+                                    <a href="#">Log out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <img src="img/SVG/home.svg" class="side-nav__icon">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <img src="img/SVG/layers.svg" class="side-nav__icon">
+                                <span>Accommodations</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <img src="img/SVG/bookmark.svg" class="side-nav__icon">
+                                <span>Offers</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        &copy; 2020 By Yassine Badri. All rights reserved.
+                    </div>
+                </nav>
+
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img src="img/hotel-1.jpg" alt="Photo of hotel 1" class="gallery__photo">
+                            <div class="gallery__caption">
+                                <h2>Night Party</h2>
+                                <p>We organize a party every single day and other surprises!</p>
+                            </div>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-2.jpg" alt="Photo of hotel 2" class="gallery__photo">
+                            <div class="gallery__caption">
+                                <h2>Swimming Pool</h2>
+                                <p>swimming pool in the nice terrace with panoramic view Bar.</p>
+                            </div>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/hotel-3.jpg" alt="Photo of hotel 3" class="gallery__photo">
+                            <div class="gallery__caption">
+                                <h2>Nature View</h2>
+                                <p>Enjoy a panoramic view of the sea while swimming.</p>
+                            </div>
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            Relax Hotel
+                        </h1>
+
+                        <div class="overview__stars">
+                            <img src="img/SVG/star.svg" class="overview__icon-star">
+                            <img src="img/SVG/star.svg" class="overview__icon-star">
+                            <img src="img/SVG/star.svg" class="overview__icon-star">
+                            <img src="img/SVG/star.svg" class="overview__icon-star">
+                            <img src="img/SVG/star.svg" class="overview__icon-star">
+                        </div>
+
+                        <div class="overview__location">
+                            <img src="img/SVG/location-pin.svg" class="overview__icon-location">
+                            <button class="btn-inline">Los Angeles, USA</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">9.2</div>
+                            <div class="overview__rating-count">856 votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                The Relax Hotel is a modern, elegant 5-star hotel overlooking the sea, perfect for a romantic, charming vacation.
+                            </p>
+                            <p class="paragraph">
+                                The rooms at the Relax Hotel are new, well-lit and inviting. Our reception staff will be happy to help you during your stay in Los Angeles, suggesting itineraries, guided visits and some good restaurants in the historic centre.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Close to the beach</li>
+                                <li class="list__item">Breakfast included</li>
+                                <li class="list__item">Free airport shuttle</li>
+                                <li class="list__item">Free wifi in all rooms</li>
+                                <li class="list__item">Air conditioning and heating</li>                                
+                                <li class="list__item">Pets allowed</li>
+                                <li class="list__item">We speak all languages</li>
+                                <li class="list__item">Perfect for families</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Lucy and 3 other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="img/user-3.jpg" alt="Friend 1" class="recommend__photo">
+                                    <img src="img/user-4.jpg" alt="Friend 2" class="recommend__photo">
+                                    <img src="img/user-5.jpg" alt="Friend 3" class="recommend__photo">
+                                    <img src="img/user-1.jpg" alt="Friend 4" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+
+                        <figure class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Without doubt one of my favorite hotels in Los Angeles! Upon arrival we were warmly welcomed by the staff and general manager, our names were mentioned on the board and we were upgraded to the Paradise Suite.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-1.jpg" alt="User 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Allen Woody</p>
+                                        <p class="review__user-date">Feb 23rd, 2019</p>
+                                    </div>
+                                    <div class="review__rating">9.1</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    The hotel is clean and provides u great hospitality.The hotel owner Mr.Mukesh is very helpful and will guide u throughout your stay.The staffs were very helpful.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-2.jpg" alt="User 2" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Blalock Jolene</p>
+                                        <p class="review__user-date">Sept 13th, 2019</p>
+                                    </div>
+                                    <div class="review__rating">8.7</div>
+                                </figcaption>
+                            </figure>
+
+                            <button class="btn-inline">Show all <span>&rarr;</span></button>
+                        </figure>
+
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Book Now For a Special discount!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left</span>
+                        </button>
+                    </div>                    
+                </main>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+:root {
+    //SVG
+    --color-primarysvg : invert(76%) sepia(43%) saturate(4596%) hue-rotate(164deg) brightness(94%) contrast(96%);
+    --color-grey-light-1svg: invert(99%) sepia(99%) saturate(0%) hue-rotate(274deg) brightness(104%) contrast(96%);
+    --color-grey-dark-2svg: invert(53%) sepia(0%) saturate(2141%) hue-rotate(323deg) brightness(87%) contrast(86%);
+    --color-grey-dark-3svg:invert(57%) sepia(59%) saturate(21%) hue-rotate(1deg) brightness(96%) contrast(91%);
+
+    //normal
+    --color-primary: #2fb6eb;
+    --color-primary-light: #63d2fd;
+    --color-primary-dark: #0aaae9;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06);
+
+    --line: 1px solid var(--color-grey-light-2);
+}
+
+$bp-largest: 75em;      // 1200 px
+$bp-large: 68.75em;     // 1100 px
+$bp-medium: 56.25em;    // 900 px
+$bp-small: 37.5em;      // 600 px
+$bp-smallest: 31.25em;  // 500 px
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10px/16px = 62.5%
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-grey-dark-2);
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
